@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Abp.Cabin.Application": {
+      "path": "src/Abp.Cabin.Application/Abp.Cabin.Application.abppkg",
+      "folder": "src"
+    },
+    "Abp.Cabin.Application.Tests": {
+      "path": "test/Abp.Cabin.Application.Tests/Abp.Cabin.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Abp.Cabin.Domain.Shared": {
+      "path": "src/Abp.Cabin.Domain.Shared/Abp.Cabin.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Abp.Cabin.Application.Contracts": {
+      "path": "src/Abp.Cabin.Application.Contracts/Abp.Cabin.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Abp.Cabin.HttpApi": {
+      "path": "src/Abp.Cabin.HttpApi/Abp.Cabin.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Abp.Cabin.HttpApi.Client": {
+      "path": "src/Abp.Cabin.HttpApi.Client/Abp.Cabin.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Abp.Cabin.EntityFrameworkCore.Tests": {
+      "path": "test/Abp.Cabin.EntityFrameworkCore.Tests/Abp.Cabin.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Abp.Cabin.EntityFrameworkCore": {
+      "path": "src/Abp.Cabin.EntityFrameworkCore/Abp.Cabin.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Abp.Cabin.TestBase": {
+      "path": "test/Abp.Cabin.TestBase/Abp.Cabin.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Abp.Cabin.Domain.Tests": {
+      "path": "test/Abp.Cabin.Domain.Tests/Abp.Cabin.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Abp.Cabin.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Abp.Cabin.HttpApi.Client.ConsoleTestApp/Abp.Cabin.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Abp.Cabin.DbMigrator": {
+      "path": "src/Abp.Cabin.DbMigrator/Abp.Cabin.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Abp.Cabin.HttpApi.Host": {
+      "path": "src/Abp.Cabin.HttpApi.Host/Abp.Cabin.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Abp.Cabin.Domain": {
+      "path": "src/Abp.Cabin.Domain/Abp.Cabin.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

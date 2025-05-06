@@ -1,0 +1,25 @@
+﻿{
+  "applications": {
+    "Abp.Cabin.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44365",
+      "path": "../../../src/Abp.Cabin.HttpApi.Host/Abp.Cabin.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 4
+      }
+    },
+    "Abp.Cabin.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$",
+      "execution": {
+        "order": 2
+      }    
+    }
+  }
+}
